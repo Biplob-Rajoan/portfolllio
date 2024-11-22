@@ -30,31 +30,52 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
+  // {
+  //   id: "work",
+  //   title: "Work",
+  // },
   {
-    id: "work",
-    title: "Work",
+    id:"projects",
+    title: "Projects"
   },
   {
     id: "contact",
     title: "Contact",
   },
+  
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "HTML",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "CSS",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "JAVASCRIPT",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "REACT",
+    icon: creator,
+  },
+  {
+    title: "NEXT.JS",
+    icon: creator,
+  },
+  {
+    title: "NODE",
+    icon: creator,
+  },
+  {
+    title: "EXPRESS",
+    icon: creator,
+  },
+  {
+    title: "MONGODB",
     icon: creator,
   },
 ];
@@ -240,9 +261,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Restuarent Site",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      `The  Bistro Boss website highlights a modern restaurant experience with diverse menus, user-friendly navigation, and an engaging design, prioritizing visual appeal and seamless customer interaction.`,
     tags: [
       {
         name: "nextjs",
